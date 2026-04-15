@@ -75,3 +75,11 @@ O Teste t apresentou **p-valor = 0,5099**, indicando que não há evidência est
 O teste de Mann-Whitney confirmou o resultado **(p = 0,4559)**. O tamanho do efeito calculado pelo d de Cohen foi **-0,157**, indicando efeito muito pequeno.
 **Assim, conclui-se que o torque não apresenta diferença estatisticamente significativa entre máquinas com falha e sem falha neste dataset.**
 Para o modelo de Machine Learning futuro, a variável torque pode ser utilizada em conjunto com outras variáveis, mas isoladamente não demonstrou forte poder explicativo.
+
+* O aluno **Luiz Felipe Farias Mota** investigou a possível relação para determinar se as máquinas com maior vibração apresentam mais falhas.
+O teste de hipótese foi aplicado para verificar se existe diferença significativa nos níveis de vibração entre máquinas com falha e sem falha.
+O teste de normalidade de Shapiro-Wilk indicou que os dados seguem distribuição aproximadamente normal **(p > 0,05)**, permitindo o uso do Teste t.
+O Teste t apresentou **p-valor > 0,05, indicando que não há evidência estatística suficiente para rejeitar a hipótese nula.
+O teste de Mann-Whitney confirmou o resultado **(p > 0,05)**. O tamanho do efeito calculado pelo d de Cohen foi próximo de 0, indicando efeito muito pequeno.
+Assim, conclui-se que os níveis de vibração não apresentam diferença estatisticamente significativa entre máquinas com falha e sem falha neste dataset.
+Para o modelo de Machine Learning futuro, a variável vibration_levels pode ser utilizada em conjunto com outras variáveis operacionais, como torque, temperatura e horas de operação, mas isoladamente não demonstrou forte poder explicativo para prever falhas.
